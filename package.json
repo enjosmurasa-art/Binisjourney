@@ -1,0 +1,12 @@
+{
+  "name": "r-multiple-trading-journal",
+  "version": "1.0.0",
+  "description": "Full-stack trading journal focused on R-multiple performance and psychological state.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
